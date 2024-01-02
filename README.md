@@ -40,10 +40,5 @@ It reached 68% recall for the test data, which is a great improvement compared t
 Final visualized result:
 
 <!-- ![Final result](./readme_images/final.png) -->
-<img src="./readme_images/final.png" width="500" height="500">
-
-
-### Reference
-
-Yao, Hy., Wan, Wg. & Li, X. A deep adversarial model for segmentation-assisted COVID-19 diagnosis using CT images. EURASIP J. Adv. Signal Process. 2022, 10 (2022). https://doi.org/10.1186/s13634-022-00842-x
+<img src="./Images/result.jpg" width="300" height="700">
 
