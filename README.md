@@ -10,13 +10,13 @@ In Houston, TX, we are facing a challenge with flooding in an urban area. To tac
 Here you can see a sample image from the area(it's an elevation map of area):
 
 <!-- ![sample image from dataset](./readme_images/sample.jpg) -->
-<img src="./readme_images/sample.jpg" width="300" height="300">
+<img src="./Images/Elevation Map.png" width="300" height="300">
 
 You can find a complete dataset for this project here:
 [Dataset](https://drive.google.com/drive/folders/1LSgzWgiDrNdlXfBmZFl1LyrFVWFaUA_q?usp=share_link)
 
 ### Explanation
-Complete Explanation of project could be found in the file, "Project Description.pdf"
+Complete Explanation of project could be found in the file, "Project Description.pdf" <br>
 The project consists of two parts:
 1. Segmentation task
 2. Diagnosis Task
