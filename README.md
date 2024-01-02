@@ -39,5 +39,5 @@ It reached 68% recall for the test data, which is a great improvement compared t
 Final visualized result:
 
 <!-- ![Final result](./readme_images/final.png) -->
-<img src="./Images/result.jpg" width="300" height="700">
+<img src="./Images/result.jpg" width="300" height="600">
 
