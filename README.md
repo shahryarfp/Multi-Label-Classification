@@ -13,32 +13,14 @@ Here you can see a sample image from the area(it's an elevation map of area):
 <img src="./Images/Elevation Map.png" width="300" height="300">
 
 You can find a complete dataset for this project here:
-[Dataset](https://drive.google.com/drive/folders/1LSgzWgiDrNdlXfBmZFl1LyrFVWFaUA_q?usp=share_link)
+[Dataset](https://drive.google.com/drive/folders/1JqYgHdtN7MsMO2df0E2LSJk3K323sRun?usp=sharing)
 
 ### Explanation
 Complete Explanation of project could be found in the file, "Project Description.pdf" <br>
-The project consists of two parts:
-1. Segmentation task
-2. Diagnosis Task
-
-#### Segmentation task:
-The dataset for this task is available here:
-[Dataset](https://drive.google.com/drive/folders/1LSgzWgiDrNdlXfBmZFl1LyrFVWFaUA_q?usp=share_link)
-
-We have three types of masks:
-1. ground glass
-2. consolidation
-3. pleural effusion
-
-In order to do the segmentation task, three U-Net models are trained, and they are available here:
-[Trained Models](https://drive.google.com/drive/folders/1ubOYddgXB_DkUQwLnlASKzLqA0vo4P1q?usp=share_link)
-
-#### Diagnosis task:
-The dataset for this task is available here:
-[Dataset](https://drive.google.com/drive/folders/1ubOYddgXB_DkUQwLnlASKzLqA0vo4P1q?usp=share_link)
-
-In order to do the diagnosis task, a VGG-16 model is used and trained. It is available here:
-[Trained Model](https://drive.google.com/drive/folders/1ubOYddgXB_DkUQwLnlASKzLqA0vo4P1q?usp=share_link)
+The project consists of three parts:
+1. Preprocessing data
+2. ML classic approaches
+3. Deep Learning approach
 
 #### How to use:
 1. Just simply open the code
@@ -47,17 +29,16 @@ In order to do the diagnosis task, a VGG-16 model is used and trained. It is ava
 
 #### Results
 
-Results of the segmentation task:
-<!-- ![seg task result](./readme_images/mask-result.png) -->
-<img src="./readme_images/mask-result.png" width="300" height="600">
+Since the data is imbalance, the metric which is important here is recall!
 
-Result of the diagnosis task:
+Results of the classic models:
+Best result was for decision tree with the recall of 39%, which is not good at all.
 
-<!-- ![dia figure](./readme_images/figure.png) -->
-<img src="./readme_images/figure.png" width="500" height="600">
+Result of the MLP model:
 
-It reached 92% accuracy for the test data.
-Final results:
+It reached 68% recall for the test data, which is a great improvement compared to clssic approaches!
+Final visualized result:
+
 <!-- ![Final result](./readme_images/final.png) -->
 <img src="./readme_images/final.png" width="500" height="500">
 
