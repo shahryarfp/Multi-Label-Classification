@@ -22,20 +22,19 @@ The project consists of three parts:
 2. ML classic approaches
 3. Deep Learning approach
 
-#### How to use:
+### How to use:
 1. Just simply open the code
 2. Correct the links to the dataset and models
 3. Run the code
 
-#### Results
+### Results
 
 Since the data is imbalance, the metric which is important here is recall!
 
-Results of the classic models:
+Results of the classic models:<br>
 Best result was for decision tree with the recall of 39%, which is not good at all.
 
-Result of the MLP model:
-
+Result of the MLP model:<br>
 It reached 68% recall for the test data, which is a great improvement compared to clssic approaches!
 Final visualized result:
 
